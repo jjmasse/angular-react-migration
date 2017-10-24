@@ -15,10 +15,10 @@ import uirouter from 'angular-ui-router'
 
 import routing from './todos.routes'
 import TodosController from './todos.controller'
-import randomNames from '../../services/randomNames.service'
-import greeting from '../../common/greeting.directive'
+import greeting from '../../common/greeting/greeting.directive'
+import todoInput from './components/todo-input';
 
-export default angular.module('app.todos', [uirouter, randomNames, greeting])
+export default angular.module('app.todos', [uirouter, todoInput])
   .config(routing)
   .controller('TodosController', TodosController)
   .name

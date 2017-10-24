@@ -1,6 +1,5 @@
 export default class TodosController {
-  constructor(randomNames) {
-    this._randomName = randomNames
+  constructor() {
     this.name = 'Change me!!!'
   }
 
@@ -13,4 +12,4 @@ export default class TodosController {
   }
 }
 
-TodosController.$inject = ['randomNames']
+TodosController.$inject = []
