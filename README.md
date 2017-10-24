@@ -1,5 +1,15 @@
 # Angular/React Migration Example Project
 
+## Running the project
+
+1. Git clone or download zip
+
+2. Unpack or CD into the project folder
+
+3. run `npm install`
+
+4. run `npm run start:dev``
+
 ## Goals
 
 This project is intended to provided a working example of a path that
