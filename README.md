@@ -8,7 +8,7 @@
 
 3. run `npm install`
 
-4. run `npm run start:dev``
+4. run `npm run start:dev`
 
 ## Goals
 
