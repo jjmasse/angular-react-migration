@@ -5,7 +5,7 @@
 This project is intended to provided a working example of a path that
 explores a migration plan for an Angular 1 code base to a react code base.
 
-###TODOs
+### TODOs
 
 #### Routing
 
