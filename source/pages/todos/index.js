@@ -16,8 +16,9 @@ import uirouter from 'angular-ui-router'
 import routing from './todos.routes'
 import TodosController from './todos.controller'
 import randomNames from '../../services/randomNames.service'
+import greeting from '../../common/greeting.directive'
 
-export default angular.module('app.todos', [uirouter, randomNames])
+export default angular.module('app.todos', [uirouter, randomNames, greeting])
   .config(routing)
   .controller('TodosController', TodosController)
   .name

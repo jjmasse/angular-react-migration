@@ -12,3 +12,5 @@ export default class TodosController {
     this.name = this._randomName.getName()
   }
 }
+
+TodosController.$inject = ['randomNames']
