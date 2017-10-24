@@ -17,8 +17,9 @@ import routing from './todos.routes'
 import TodosController from './todos.controller'
 import greeting from '../../common/greeting/greeting.directive'
 import todoInput from './components/todo-input';
+import todoFiltersWrapper from './components/todo-filters-wrapper';
 
-export default angular.module('app.todos', [uirouter, todoInput])
+export default angular.module('app.todos', [uirouter, todoInput, todoFiltersWrapper])
   .config(routing)
   .controller('TodosController', TodosController)
   .name
