@@ -4,7 +4,7 @@
 
 1. Git clone or download zip
 
-2. Unpack or CD into the project folder
+2. Unpack or `cd` into the project folder
 
 3. run `npm install`
 
