@@ -8,12 +8,18 @@ import TodoFilters from '../components-react/TodoFilters'
 function todoFiltersWrapper() {
   return {
     restrict: 'E',
-    scope: {},
-    renderReact(element) {
-      ReactDOM.render(<TodoFilters />, element)
+    scope: {
+      title: '='
+    },
+    renderReact(element, props) {
+      ReactDOM.render(<TodoFilters title={props.title} />, element)
     },
     link(scope, element, attrs) {
-      this.renderReact(element[0])
+      const props = {
+        title: scope.title
+      }
+
+      this.renderReact(element[0], props)
     }
   }
 }
